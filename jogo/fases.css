@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff;
+}
+#labirinto {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 5px solid #000;
+    background-color: #e0f7fa;
+}
+.parede {
+    position: absolute;
+    background-color: #00796b;
+}
+#jogador {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ff5722;
+    border-radius: 50%;
+}
+#meta {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #4caf50;
+    border-radius: 15px;
+}
