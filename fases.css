@@ -31,3 +31,8 @@ body {
     background-color: #4caf50;
     border-radius: 15px;
 }
+.obstaculo {
+    position: absolute;
+    background-color: #d32f2f;
+    border-radius: 5px;
+}
